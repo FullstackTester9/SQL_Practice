@@ -2,7 +2,7 @@ USE HOSPITAL;
 
 --1. Show unique birth years from patients and order them by ascending.
 
-SELECT distinct YEAR(BIRTH_DATE)AS BIRTH_YEAR
+SELECT DISTINCT YEAR(BIRTH_DATE)AS BIRTH_YEAR
 FROM
 	PATIENTS
 ORDER BY
